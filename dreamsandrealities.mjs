@@ -2,7 +2,7 @@ import http2 from "http2";
 import WebSocket from "ws";
 import fs from "fs";
 import extractJsonFromString from "extract-json-from-string";
-console.log("bu kod dexycan/dreamsandrealitiesden - tüm sanal aleme emanettir");
+console.log("bu kod dexycandan tüm sanal aleme emanettir");
 const config = {
   token: "",
   guildId: "",
