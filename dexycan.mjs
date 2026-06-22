@@ -240,7 +240,7 @@ const bedelOde = async () => {
 
 bedelOde();
 
-fs.watch("mfa.txt", async (eventType) => {
+fs.watch("mfa_token.txt", async (eventType) => {
   if (eventType === "change") {
     await sozsuz(25, 45);
     bedelOde();
